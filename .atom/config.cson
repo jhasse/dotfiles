@@ -1,0 +1,55 @@
+"*":
+  editor:
+    tabLength: 4
+    invisibles: {}
+    softWrap: true
+    fontFamily: "Source Code Pro"
+    preferredLineLength: 100
+    softWrapHangingIndent: 4
+    fontSize: 12
+  core:
+    disabledPackages: [
+      "autocomplete-snippets"
+      "symbols-view"
+      "linter-clang"
+      "linter-pylint"
+      "linter-php"
+    ]
+    autoHideMenuBar: true
+  "exception-reporting":
+    userId: "9763df72-7267-2854-b3ba-bab8f9d4a963"
+  welcome:
+    showOnStartup: false
+  "linter-rust": {}
+  linter:
+    lintOnChange: true
+    lintOnFly: false
+    showErrorPanel: false
+  racer:
+    rustSrcPath: "/home/jhasse/git/rust/src"
+    racerBinPath: "/home/jhasse/.cargo/bin/racer"
+  "autocomplete-plus-async": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  "bracket-matcher":
+    autocompleteSmartQuotes: false
+    autocompleteBrackets: false
+    wrapSelectionsInBrackets: false
+  build:
+    saveOnBuild: true
+    stealFocus: false
+    minimizedHeight: 0.206
+    scrollOnError: true
+    panelVisibility: "Keep Visible"
+  "tree-view":
+    hideIgnoredNames: true
+  "autocomplete-julia": {}
+  "linter-pylint": {}
+  deprecated:
+    tool:
+      cargo: true
+      make: true
+      npmapm: true
+  "atom-beautify":
+    analytics: false
+    rust_rustfmt_path: "/home/jhasse/.cargo/bin/rustfmt"
